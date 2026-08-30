@@ -105,8 +105,8 @@ figures/                    Rapor görselleri
 ## Kurulum
 
 ```bash
-git clone <bu-repo>
-cd <bu-repo>
+git clone https://github.com/ncrim7/agc-ai-research.git
+cd agc-ai-research
 pip install -r requirements.txt
 ```
 
