@@ -1,0 +1,10 @@
+# AGC Decision Support System - bagimliliklar
+# Not: kesin surum numaralari dogrulanmadi, minimum surumler onerilir.
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.1
+tensorflow==2.10.1   # bu proje TF 2.10.1 / Keras 2.10.0 ile gelistirildi ve test edildi
+                     # UYARI: agc_all_in_one.py checkpoint'leri Keras 3.x (.keras format) ile
+                     # de yazilmis olabilir -- yukleme sorunlari icin reports/09 (Multi-Agent
+                     # raporu) Ek D'ye bakin.
